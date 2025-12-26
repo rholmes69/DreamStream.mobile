@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Wand2, CheckCircle2, Clock, PlayCircle } from 'lucide-react';
-import { Tutorial } from '../types';
+import { Tutorial } from '../types.ts';
 
 interface DojoProps {
   tutorials: Tutorial[];

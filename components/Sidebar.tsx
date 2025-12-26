@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { X, Moon, Sun, Monitor, Shield, Settings, Info, Bell, Volume2, Globe, LogOut, Trash2 } from 'lucide-react';
-import { Theme } from '../types';
+import { Theme } from '../types.ts';
 
 interface SidebarProps {
   isOpen: boolean;

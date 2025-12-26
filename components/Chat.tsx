@@ -1,7 +1,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { Send, MessageSquare } from 'lucide-react';
-import { getMasterResponse } from '../services/geminiService';
+import { getMasterResponse } from '../services/geminiService.ts';
 
 interface Message {
   id: string;

@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Play, Share2, Heart, Flame, Gift, Trophy } from 'lucide-react';
-import { LiveChat } from './Chat';
+import { LiveChat } from './Chat.tsx';
 
 interface ArenaProps {
   onPredict: () => void;

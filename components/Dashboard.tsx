@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import { User } from '../types';
+import { User } from '../types.ts';
 import { TrendingUp, Award, Star, MessageSquare, Zap } from 'lucide-react';
 
 interface DashboardProps {

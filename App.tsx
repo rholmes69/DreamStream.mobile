@@ -1,14 +1,14 @@
 
 import React, { useState, useEffect } from 'react';
 import { LayoutDashboard, Play, Wand2, Trophy, Menu, Bell } from 'lucide-react';
-import { Page, AppState, Theme } from './types';
-import { MOCK_USER, MOCK_LEADERBOARD, MOCK_TUTORIALS } from './constants';
-import { Dashboard } from './components/Dashboard';
-import { Arena } from './components/Arena';
-import { Dojo } from './components/Dojo';
-import { Leaderboard } from './components/Leaderboard';
-import { Sidebar } from './components/Sidebar';
-import { RewardOverlay } from './components/RewardOverlay';
+import { Page, AppState, Theme } from './types.ts';
+import { MOCK_USER, MOCK_LEADERBOARD, MOCK_TUTORIALS } from './constants.tsx';
+import { Dashboard } from './components/Dashboard.tsx';
+import { Arena } from './components/Arena.tsx';
+import { Dojo } from './components/Dojo.tsx';
+import { Leaderboard } from './components/Leaderboard.tsx';
+import { Sidebar } from './components/Sidebar.tsx';
+import { RewardOverlay } from './components/RewardOverlay.tsx';
 
 const App: React.FC = () => {
   const [state, setState] = useState<AppState>({
@@ -69,11 +69,6 @@ const App: React.FC = () => {
             <Menu className="w-6 h-6 text-amber-500" />
           </button>
           <div className="flex items-center gap-2">
-            <img 
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-scale.png" 
-              className="hidden" // Placeholder logic: actually using the branding style below
-              alt=""
-            />
             <div className="flex flex-col items-center">
               <h1 className="dragon-font text-base font-black tracking-tighter text-amber-500 flex items-center gap-1">
                 LITTLE DRAGON <span className="text-cyan-400">VFX</span>
