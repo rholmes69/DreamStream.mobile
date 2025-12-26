@@ -1,0 +1,8 @@
+{
+  "name": "DragonStream",
+  "description": "A high-energy SaaS platform for Little Dragon VFX fans, featuring martial arts competitions, VFX education, and gamified rewards.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
